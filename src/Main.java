@@ -14,7 +14,7 @@ public class Main {
         amount = scanner.nextInt();
         numbers = new int[amount];
         operations = new String[amount];
-
+        
         for (int i = 0; i < amount; i++) {
             System.out.println("Enter operation: (+, -, *, /, =)");
             op = scanner.next();
